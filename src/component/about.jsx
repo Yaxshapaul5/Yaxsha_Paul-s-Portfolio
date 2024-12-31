@@ -1,6 +1,16 @@
 import React from 'react';
 import './style.css';
-
+import htmlImage from '../assets/html.png';
+import cssImage from '../assets/css.png';
+import jsImage from '../assets/js.png';
+import reactImage from '../assets/react.png';
+import nodeImage from '../assets/node.png';
+import expressImage from '../assets/express.png';
+import phpImage from '../assets/php.png';
+import sqlImage from '../assets/sql.png';
+import mongoImage from '../assets/mongo.png';
+import pgImage from '../assets/pg.png';
+import officeImage from '../assets/office.png';
 const About = () => {
   return (
     <>
@@ -17,47 +27,47 @@ const About = () => {
           <h2 className="skill-heading">Skills</h2>
           <div className='skill-boxex'>
           <div className="skill-box">
-    <img src="/assets/html.png" alt="Skill" className="skill-image" />
+    <img src={htmlImage} alt="Skill" className="skill-image" />
     <p>HTML5</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/css.png" alt="Skill" className="skill-image" />
+    <img src={cssImage} alt="Skill" className="skill-image" />
     <p>CSS</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/js.png" alt="Skill" className="skill-image" />
+    <img src={jsImage} alt="Skill" className="skill-image" />
     <p>JS</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/react.png" alt="Skill" className="skill-image" />
+    <img src={reactImage} alt="Skill" className="skill-image" />
     <p>REACT JS</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/node.png" alt="Skill" className="skill-image" />
+    <img src={nodeImage} alt="Skill" className="skill-image" />
     <p>NODE JS</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/express.png" alt="Skill" className="skill-image" />
+    <img src={expressImage} alt="Skill" className="skill-image" />
     <p>EXPRESS JS</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/php.png" alt="Skill" className="skill-image" />
+    <img src={phpImage} alt="Skill" className="skill-image" />
     <p>PHP</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/sql.png" alt="Skill" className="skill-image" />
+    <img src={sqlImage} alt="Skill" className="skill-image" />
     <p>MYSQL</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/mongo.png" alt="Skill" className="skill-image" />
+    <img src={mongoImage} alt="Skill" className="skill-image" />
     <p>MONGODB</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/pg.png" alt="Skill" className="skill-image" />
+    <img src={pgImage} alt="Skill" className="skill-image" />
     <p>POSTGRESQL</p>
   </div>
   <div className="skill-box">
-    <img src="/assets/office.png" alt="Skill" className="skill-image" />
+    <img src={officeImage} alt="Skill" className="skill-image" />
     <p>MS OFFICE</p>
   </div>
   </div>
